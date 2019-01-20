@@ -1,0 +1,102 @@
+body {
+	background-color: #EEEEEE;
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	max-width: 1089px;
+	margin: 0 auto;
+}
+
+.welcome-card {
+	background-color: #FFFFFF;
+	width: 600px;
+	padding: 16px;
+	border-radius: 4px;
+	margin: 32px auto;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #4A6E90;
+	overflow: hidden;
+	padding: 16px 0;
+}
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navbar ul li {
+	float: left;
+	margin-right: 42px;
+}
+.navbar ul li a {
+	color: #FFD700;
+	text-decoration: none;
+	font-size: 2em;
+}
+.navbar ul li a:hover {
+	background-color: #6C8FB2
+}
+
+.navbar2 {
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.navbar2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.navbar2 ul li {
+	float: left;
+	margin-right: 42px;
+}
+.navbar2 ul li a {
+	color: #4A6E90;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.news {
+	background-color: #FFFFFF;
+	width: 385px;
+	margin: 0 auto;
+	padding: 16px;
+}
+.news-item {
+	text-align: center;
+}
+.news-item a {
+	color: #6C8FB2;
+}
+
+.footer {
+	background-color: #4A6E90;
+}
+.footer a {
+	color: #FFD700;
+	text-decoration: none;
+}
+
+
+@media (min-width: 268px) and (max-width: 524px) {
+	.welcome-card {
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.news {
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+}
+
+
+
+
+
